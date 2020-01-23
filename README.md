@@ -48,11 +48,11 @@ Define the the React components and the architectural design of your app.
 
 | Component | Description | 
 | --- | :---: |  
-| App | STATEFUL |This will make the initial data pull and include React, React-DOM and React Router| 
-| Logo | STATELESS | This will render the logo. | 
-| FoodImage | STATELESS | This will render the returned image of food.|
-| FoodDetail| STATELESS | This will render the food name returned, along with a short description and recipe. |
-|SearchBar| STATELESS | This will take the user input to be used in fetching data from the API.| 
+| App | STATEFUL: This will make the initial data pull and include React, React-DOM and React Router| 
+| Logo | STATELESS: This will render the logo. | 
+| FoodImage | STATELESS: This will render the returned image of food.|
+| FoodDetail| STATELESS: This will render the food name returned, along with a short description and recipe. |
+|SearchBar| STATELESS: This will take the user input to be used in fetching data from the API.| 
 
 ## Component Development TimeScales
 
