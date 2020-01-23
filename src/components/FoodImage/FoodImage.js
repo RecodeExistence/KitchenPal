@@ -2,11 +2,11 @@ import React from 'react';
 
 import './FoodImage.css';
 
-const FoodImage = () => {
+const FoodImage = ({imageToDisplay}) => {
     return (
         <div className = "FoodImage-DisplayBox">
             {/*Placeholder till image data pulled*/}
-            <img src = "https://picsum.photos/536/354" alt = "Food to be displayed here." />
+            <img src = {imageToDisplay} alt = "Food to be displayed here." />
 
         </div>
     ); 
