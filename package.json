@@ -1,6 +1,6 @@
 {
   "name": "kitchenpal",
-  "description" : "KitchenPal - A food friend is a good friend!",
+  "description": "KitchenPal - A food friend is a good friend!",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
