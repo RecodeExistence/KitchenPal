@@ -3,6 +3,7 @@ body {
   display: flex;
   justify-content: center; 
 
+
   margin: 0; 
   padding: 0; 
   height: 100%; 
@@ -11,8 +12,9 @@ body {
 }
 
 .App-Container {
-  margin: 1em;
-  border-radius: 25px;
-  border: 1px solid red; 
+  margin: 2em;
+  background: linear-gradient(to right,#181818, #CC80AF);
   
-}
+  border-radius: 10%;
+  border: 2px solid black;
+  } 

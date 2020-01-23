@@ -1,12 +1,13 @@
 .FoodImage-DisplayBox {
-    border: 1px solid black;
     margin: 1em;
+
+    border-radius: 25px;
+    background: #5DA0A2;
 }
 
 .FoodImage-DisplayBox img{
-    justify-self: flex-start;
     padding: 1em; 
     margin: 1em;
     height: 40%; 
-    width: 30%;
-}
+    width: 30%;  
+} 

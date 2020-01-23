@@ -12,6 +12,10 @@
     margin-bottom: 1em;
     padding: 1em;
 
+    background: #CC80AF; 
+    color: white;
+    text-align: center;
+
     height: 5%; 
     width: 50%;
 }

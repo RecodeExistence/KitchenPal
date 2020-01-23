@@ -1,8 +1,8 @@
 .Logo {
     display: flex;
-    margin: 1em;
-
-    background: #5DA0A2;
+    border-radius: 100%;
+/* 
+    background: #5DA0A2; */
     
     justify-content: center;
     align-items: center;
@@ -10,13 +10,15 @@
 
 .Logo img {
     display: flex;
-    margin: 1em;
-
-    background: lightgray;
 
     height: 200px; 
     width: 200px;
 
     justify-content: center; 
     align-items: center;
+}
+
+.Logo img:hover {
+    transition: all 1s ease; 
+    transform: scale(1.2);
 }
