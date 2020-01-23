@@ -11,6 +11,8 @@ body {
 }
 
 .App-Container {
+  margin: 1em;
+  border-radius: 25px;
   border: 1px solid red; 
   
 }

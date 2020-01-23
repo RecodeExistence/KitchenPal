@@ -1,5 +1,9 @@
 .Logo {
-    display: flex; 
+    display: flex;
+    margin: 1em;
+
+    background: #5DA0A2;
+    
     justify-content: center;
     align-items: center;
 }
@@ -7,9 +11,11 @@
 .Logo img {
     display: flex;
     margin: 1em;
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
+
+    background: lightgray;
+
+    height: 200px; 
+    width: 200px;
 
     justify-content: center; 
     align-items: center;
