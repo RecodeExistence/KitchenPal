@@ -7,7 +7,7 @@ import './App.css';
 /* Component Imports */
 import Logo from './components/Logo/Logo';
 import FoodImage from './components/FoodImage/FoodImage';
-import FoodDetails from './components/FoodDetails/FoodDetails'; 
+/* mport FoodDetails from './components/FoodDetails/FoodDetails';  */
 import SearchBar from './components/SearchBar/SearchBar';
 
 class App extends Component {
