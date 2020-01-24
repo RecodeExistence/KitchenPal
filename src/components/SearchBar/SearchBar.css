@@ -12,7 +12,7 @@
     margin-bottom: 1em;
     padding: 1em;
 
-    background: #CC80AF; 
+    background: black; 
     color: white;
     text-align: center;
 
@@ -24,6 +24,7 @@
     justify-content: center; 
     align-items: center;
     margin: 1em;
+    margin-bottom: 2rem;
 }
 .SearchBar input:hover {
     transition: all ease-in-out 1s; 

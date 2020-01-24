@@ -14,6 +14,7 @@ const getFoodData = async (url) => {
 return data;
 }
 
+
 class App extends Component { 
   
   // App Level State:  
@@ -53,6 +54,7 @@ onIconClick = async () => {
     const cheeseBurgerIcon = document.querySelector('.hamburgerIconContainer'); 
     await cheeseBurgerIcon.classList.add('animated', 'flash');
 
+    //remove the class again after a moment, so it can be reused each time input changes.
     setTimeout(() => {
       cheeseBurgerIcon.classList.remove('animated', 'flash')
     }, 1500);

@@ -3,6 +3,11 @@
 
     border-radius: 25px;
     background: #5DA0A2;
+
+    /*Box Shadow: */
+    -webkit-box-shadow: 10px 12px 19px 8px rgba(10,10,10,1);
+    -moz-box-shadow: 10px 12px 19px 8px rgba(10,10,10,1);
+    box-shadow: 10px 12px 19px 8px rgba(10,10,10,1);
 }
 
 .FoodImage-DisplayBox img{

@@ -13,7 +13,7 @@ body {
 
 .App-Container {
   margin: 2em;
-  background: linear-gradient(to right,#181818, #CC80AF);
+  background: #355e3b;
   
   border-radius: 10%;
   border: 2px solid black;
