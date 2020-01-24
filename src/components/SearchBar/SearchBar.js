@@ -16,4 +16,10 @@ const SearchBar = ({inputChanged, onIconClick}) => {
         );
 }
 
+window.onload = () => setTimeout(() => {
+    document.querySelector('.SearchBar').style.visibility="visible"; 
+    document.querySelector('.SearchBar').classList.add('animated', 'fadeIn'); 
+
+    document.querySelector('.hamburgerIconContainer').classList.add('animated', 'rotateIn');
+}, 2000);
 export default SearchBar;
