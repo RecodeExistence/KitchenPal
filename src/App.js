@@ -52,7 +52,9 @@ onIconClick = async () => {
   }
 
   applyIconAnimate = async () => {
+    
     const cheeseBurgerIcon = document.querySelector('.hamburgerIconContainer'); 
+    await cheeseBurgerIcon.classList.remove('animated', 'rotateIn');
     await cheeseBurgerIcon.classList.add('animated', 'flash');
 
     //remove the class again after a moment, so it can be reused each time input changes.
