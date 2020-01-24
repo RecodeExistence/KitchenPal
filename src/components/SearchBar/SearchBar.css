@@ -2,6 +2,7 @@
     /* hidden onload til fadeineffect. */
     visibility: hidden;
 
+    margin-left: 1em;
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -35,4 +36,13 @@
     transform: scale(1.1);
     margin-left: 1em; margin-right: 1em;
     border: 2px solid white;
+}
+
+.SearchBar input:focus {
+    outline: none;
+}
+
+.scaleUp {
+    transition: .5s ease-in-out all;
+    transform: scale(1.2); 
 }

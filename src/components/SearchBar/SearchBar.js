@@ -21,5 +21,5 @@ window.onload = () => setTimeout(() => {
     document.querySelector('.SearchBar').classList.add('animated', 'fadeIn'); 
 
     document.querySelector('.hamburgerIconContainer').classList.add('animated', 'rotateIn');
-}, 2000);
+}, 1200);
 export default SearchBar;

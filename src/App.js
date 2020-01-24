@@ -27,18 +27,7 @@ class App extends Component {
   }
 
 //When icon is clicked to submit user input search term, build the api fetch.   
-onIconClick = async () => {
-  //grab state of foodnameinput. 
-  const { foodNameInput, imageToDisplay } = this.state;
-  console.log('imageToDisplay from state', {imageToDisplay}); 
-  //Build url to make API call.  
-  const urlRequest = `https://api.spoonacular.com/food/menuItems/search?&query=${foodNameInput}&number=1&apiKey=b6bb6f481ac145b98f1bc8fda4e6695f`; 
 
-    // run api fetch, save to variable.  
-    const dataReturned = await getFoodData(urlRequest); 
-    const displayImage = dataReturned.menuItems[0].image;
-    this.setState({imageToDisplay: displayImage});  
-}
 
 
   //Input changes on input bar, update relevant state. 
