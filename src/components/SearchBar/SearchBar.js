@@ -4,9 +4,11 @@ import './SearchBar.css';
 import hamburgerButton from './hamburgerButton.png';
 
 const SearchBar = ({inputChanged, onIconClick}) => {
+
     
+
     return (
-    <div className = "SearchBar">
+    <div className = "SearchBar animated fadeIn">
         <label htmlFor = "searchbar"></label>
             <input onChange = {inputChanged} type = "text" placeholder = "Enter a food item, click the burger!" id = 'searchbar' />
         <div className = "hamburgerIconContainer">
@@ -15,5 +17,6 @@ const SearchBar = ({inputChanged, onIconClick}) => {
     </div>
         );
 }
+
 
 export default SearchBar;

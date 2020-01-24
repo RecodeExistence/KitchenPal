@@ -37,8 +37,9 @@ onIconClick = async () => {
     // run api fetch, save to variable.  
     const dataReturned = await getFoodData(urlRequest); 
     const displayImage = dataReturned.menuItems[0].image;
-    this.setState({imageToDisplay: displayImage});  
-}
+    this.setState({imageToDisplay: displayImage});
+    }
+
 
 
   //Input changes on input bar, update relevant state. 

@@ -1,11 +1,12 @@
 .SearchBar {
+    /* hidden to start before fadeIn */
+    /* visibility: hidden; */
     display: flex; 
     justify-content: center; 
     align-items: center;
 }
 
-.SearchBar > input { 
-
+.SearchBar > input {
     border: 2px solid black; 
     border-radius: 25px;
 
@@ -31,4 +32,8 @@
     transform: scale(1.1);
     margin-left: 1em; margin-right: 1em;
     border: 2px solid white;
+}
+
+.SearchBar input:focus {
+    outline: none;
 }
