@@ -1,0 +1,12 @@
+.NotesContainer {
+    display: 'flex';
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ListLayoutContainer {
+    
+    margin: 1em;
+    padding: 1em;
+}
