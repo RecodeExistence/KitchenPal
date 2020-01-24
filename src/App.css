@@ -1,9 +1,26 @@
+@font-face {
+  font-family: 'foodiefont';
+  src: url('./resources/foodiefont.otf');
+}
 html, 
 body {
-  
-  margin: 0 ; 
+  display: flex;
+  justify-content: center; 
+
+
+  margin: 0; 
   padding: 0; 
   height: 100%; 
-  width: 100;
+  width: 100%;
+ 
+  font: 20px solid white 'foodiefont';
 
 }
+
+.App-Container {
+  margin: 2em;
+  background: #355e3b;
+  
+  border-radius: 10%;
+  border: 2px solid black;
+  } 

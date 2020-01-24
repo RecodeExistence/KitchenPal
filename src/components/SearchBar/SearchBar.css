@@ -1,0 +1,39 @@
+.SearchBar {
+    /* hidden to start before fadeIn */
+    /* visibility: hidden; */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.SearchBar > input {
+    border: 2px solid black; 
+    border-radius: 25px;
+
+    margin-bottom: 1em;
+    padding: 1em;
+
+    background: black; 
+    color: white;
+    text-align: center;
+
+    height: 5%; 
+    width: 50%;
+}
+.hamburgerIconContainer {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 1em;
+    margin-bottom: 2rem;
+}
+.SearchBar input:hover {
+    transition: all ease-in-out 1s; 
+    transform: scale(1.1);
+    margin-left: 1em; margin-right: 1em;
+    border: 2px solid white;
+}
+
+.SearchBar input:focus {
+    outline: none;
+}
