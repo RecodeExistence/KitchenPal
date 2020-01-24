@@ -1,10 +1,10 @@
 import React from 'react';
 import './FollowUpNotes.css';
 
-const FollowUpNotes = () => {
+const FollowUpNotes = ({backButtonClicked}) => {
     return (
         <div className = "NotesContainer">
-                
+                <input type = "button" onClick = {backButtonClicked} value = "Back" id = "backButton"/>
                 <div className = 'ListLayoutContainer'>
                 
                 <h1 style={{textAlign: 'center'}}>Development Follow Up Notes</h1>

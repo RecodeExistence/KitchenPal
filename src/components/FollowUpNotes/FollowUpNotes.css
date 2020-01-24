@@ -1,3 +1,14 @@
+#backButton {
+    position: absolute;
+    top: 2%; 
+    right: 0; 
+
+    margin: 1em; 
+
+    height: 2em;
+    width: 5em;
+}
+
 .NotesContainer {
     display: 'flex';
     justify-content: center;
@@ -11,4 +22,5 @@
     margin: 1em;
     padding: 1em;
 }
+
 

@@ -56,6 +56,10 @@ onIconClick = async () => {
     console.log(this.state);
   }
 
+  backButtonClicked = () => {
+    this.setState({route: 'home'});
+  }
+
 
 
   //Input changes on input bar, update relevant state. 
@@ -96,7 +100,7 @@ onIconClick = async () => {
       </div>
       
       : 
-      <FollowUpNotes />
+      <FollowUpNotes backButtonClicked = {this.backButtonClicked} />
     
     } 
     </div>   
