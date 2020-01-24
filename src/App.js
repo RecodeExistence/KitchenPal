@@ -42,10 +42,20 @@ onIconClick = async () => {
 
   //Input changes on input bar, update relevant state. 
   inputChanged = (event) => {
+    this.applyIconAnimate();
     this.setState({
       foodNameInput: event.target.value, 
     });
     console.log(this.state.foodNameInput); 
+  }
+
+  applyIconAnimate = async () => {
+    const cheeseBurgerIcon = document.querySelector('.hamburgerIconContainer'); 
+    await cheeseBurgerIcon.classList.add('animated', 'flash');
+
+    setTimeout(() => {
+      cheeseBurgerIcon.classList.remove('animated', 'flash')
+    }, 1500);
   }
 
 
@@ -54,7 +64,7 @@ onIconClick = async () => {
     return(
       <div className = "App-Container">
         <Logo />
-        <SearchBar inputChanged = {this.inputChanged} onIconClick = {this.onIconClick}/>
+        <SearchBar inputChanged = {this.inputChanged} onIconClick = {this.onIconClick} applyIconAnimate = {this.applyIconAnimate}/>
         <FoodImage imageToDisplay =  {imageToDisplay}/>
         
       </div>

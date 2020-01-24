@@ -19,14 +19,15 @@
     height: 5%; 
     width: 50%;
 }
-.hamburgerButtonDiv {
+.hamburgerIconContainer {
     display: flex; 
     justify-content: center; 
     align-items: center;
-    margin-bottom: 1em;
+    margin: 1em;
 }
 .SearchBar input:hover {
-    transition: all ease 1s; 
-    transform: scale(1.5);
+    transition: all ease-in-out 1s; 
+    transform: scale(1.1);
+    margin-left: 1em; margin-right: 1em;
     border: 2px solid white;
 }
