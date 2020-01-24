@@ -2,7 +2,8 @@
     display: 'flex';
     justify-content: center;
     align-items: center;
-    
+
+    font-family: 'Roboto Slab', serif;
 }
 
 .ListLayoutContainer {
@@ -10,3 +11,4 @@
     margin: 1em;
     padding: 1em;
 }
+

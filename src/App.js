@@ -51,7 +51,6 @@ onIconClick = async () => {
   }
 
   notesButtonClick = () => {
-    alert('clicky');
     this.setState({route: 'displayWriteUp'}); 
     console.log(this.state);
   }

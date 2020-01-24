@@ -1,7 +1,3 @@
-@font-face {
-  font-family: 'foodiefont';
-  src: url('./resources/foodiefont.otf');
-}
 html, 
 body {
   display: flex;
@@ -12,9 +8,6 @@ body {
   padding: 0; 
   height: 100%; 
   width: 100%;
- 
-  font: 20px solid white 'foodiefont';
-
 }
 
 .App-Container {

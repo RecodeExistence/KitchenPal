@@ -6,6 +6,8 @@ const FollowUpNotes = () => {
         <div className = "NotesContainer">
                 
                 <div className = 'ListLayoutContainer'>
+                
+                <h1 style={{textAlign: 'center'}}>Dev Follow Up Notes</h1>
                 <ul>
                     <h2>Describe and justify some of the key decisions you made in your project. Why did you decide to do what you did? How does your choice compare to the alternatives?</h2>
                 
