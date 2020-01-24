@@ -2,8 +2,13 @@
     display: 'flex';
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
 
     font-family: 'Roboto Slab', serif;
+=======
+    font-family: 'Roboto Slab', serif; 
+    
+>>>>>>> bc57abab975c86f55c9f903affe9a640ea31cd75
 }
 
 .ListLayoutContainer {

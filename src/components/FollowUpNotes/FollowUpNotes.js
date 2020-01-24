@@ -42,6 +42,10 @@ const FollowUpNotes = () => {
                     <p>Despite having a wireframe for the app, I'm not a skilled designer.  I prefer function over form.  I did find myself spending too much time on color choice and aesthetics.<br />
 
                     In future, and in a developer role, I would be closely following specifications as describe/requested by the client, and in-house designers,allowing me to focus more on productivity and code effectiveness.</p>
+
+                    <p>Finally, if the app got any larger, I would consider using Redux or Context API to manage App level state, and abstract the state away from App.js, as well as implementing react-router to manage routes instead of the way I've done so now <br />
+                    
+                    This will allow all state overhead to be managable in a much more effective and streamlined manner.</p>
                 </li>
 
                 <li>Features

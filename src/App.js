@@ -50,6 +50,7 @@ onIconClick = async () => {
     
   }
 
+  // prop into NotesButton.  
   notesButtonClick = () => {
     this.setState({route: 'displayWriteUp'}); 
     console.log(this.state);
@@ -66,6 +67,7 @@ onIconClick = async () => {
     console.log(this.state.foodNameInput); 
   }
 
+  // stylistic. 
   applyIconAnimate = async () => {
     
     const cheeseBurgerIcon = document.querySelector('.hamburgerIconContainer'); 

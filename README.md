@@ -67,3 +67,5 @@ Will be added here as required. (Possibly Tachyons for a start.)
 
 ## Issues and Resolutions
 Any issues will be documented correctly via the project repo issues page.  
+https://github.com/RecodeExistence/KitchenPal/issues/1
+https://github.com/RecodeExistence/KitchenPal/issues/2
